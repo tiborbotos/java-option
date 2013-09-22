@@ -6,8 +6,8 @@
 .project
 .cache
 .settings/* 
-.target/*
-.test-output/*
+target/*
+test-output/*
 
 
 # Package Files #
