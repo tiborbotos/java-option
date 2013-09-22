@@ -6,6 +6,9 @@
 .project
 .cache
 .settings/* 
+.target/*
+.test-output/*
+
 
 # Package Files #
 *.jar

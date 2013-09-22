@@ -43,7 +43,7 @@ public abstract class Option<T> {
 		}
 	}
 
-	private final static class Some extends Option<Object> {
+	public final static class Some extends Option<Object> {
 		public Some(Object value) {
 			this.value = value;
 		}
