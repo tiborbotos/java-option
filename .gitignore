@@ -1,5 +1,12 @@
 *.class
 
+# Eclipse specific
+.bin/*
+.classpath
+.project
+.cache
+.settings/* 
+
 # Package Files #
 *.jar
 *.war

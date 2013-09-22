@@ -97,5 +97,15 @@ public abstract class Option<T> {
 		return value;
 	}
 	
+	/**
+	 * @return is the value not presented
+	 */
 	public abstract boolean isEmpty();
+	
+	/**
+	 * @return is the value presented
+	 */
+	public boolean isDefined() {
+		return !isEmpty();
+	}
 }
